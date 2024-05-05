@@ -1,0 +1,26 @@
+body {
+  background: rgb(226, 230, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(219, 144, 32) 0%,
+    rgb(163, 57, 31) 100%
+  );
+  text-align: center;
+  margin: 80px 200px;
+}
+
+div {
+  padding: 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+label {
+  padding: 5px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c3cec7;
+}
